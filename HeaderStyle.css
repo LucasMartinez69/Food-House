@@ -3,7 +3,7 @@ body{
 }
 .conteiner{
     width: 100%;
-    max-width: 400px;
+    max-width: 872px;
     background-color: white;
     border-radius: 5%;
     margin-left: auto;
@@ -17,21 +17,8 @@ header{
     width: 100%;
     margin-top: 5%;
 }
-h3{
+h1{
     position: relative;
     width: 60%;
     margin-left: 3%;
-}
-.nav{
-    position: relative;
-    background-color: white;
-    margin-top: 3%;
-    margin-right: 3%;
-    width: 8%;
-    height: 0%;
-    padding-bottom: 7%;
-}
-.imgcat{
-    width: 130px;
-    height: 130px;
 }
