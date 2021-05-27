@@ -5,20 +5,47 @@ body{
     width: 100%;
     max-width: 872px;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 80px;
     margin-left: auto;
     margin-right: auto;
 }
 header{
     position: relative;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;  
+}
+.menu-superior{
+    position: relative;
+    display: flex;
     justify-content: space-between;
     align-content: center;
+    margin-top: 7%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.pruebalogo{
+    width: 30px;
+    height: 30px;    
+}
+.buttonnav{
+    position: relative;
+    display: flex;
+    float: right;
+    background-color: white;
+    border:none;
+    width: 8%;
+}
+.imgnav{
+    position: relative;
     width: 100%;
-    margin-top: 5%;
+    height: 100%;
 }
 h1{
     position: relative;
+    display: flex;
     width: 60%;
     margin-left: 3%;
+    
 }

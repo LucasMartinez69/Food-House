@@ -3,3 +3,26 @@
     height: 130px;
     display: flex;
 }
+
+.platocomida {
+    width: 280px;
+    height: 280px; 
+    border-radius: 40px;
+}
+
+.categorías{
+    width: 90%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    overflow-x: scroll;
+
+}
+.categorias-slider{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    ;
+}
