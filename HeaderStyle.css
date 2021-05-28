@@ -1,11 +1,14 @@
 body{
     background-color: beige;
-}
-.conteiner{
     width: 100%;
-    max-width: 872px;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 700px;
     background-color: white;
     border-radius: 80px;
+    padding: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,9 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-top: 7%;
-    margin-right: 5%;
-    margin-left: 5%;
+
 }
 .pruebalogo{
     width: 30px;
@@ -43,9 +44,11 @@ header{
     height: 100%;
 }
 h1{
+    font-family: 'Public Sans', sans-serif;
+    font-style: bold;
+    font-size: 70px;
+    margin-bottom: 3%;
     position: relative;
     display: flex;
-    width: 60%;
-    margin-left: 3%;
-    
+    width: 100%;    
 }
